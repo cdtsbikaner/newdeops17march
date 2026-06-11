@@ -14,7 +14,7 @@ spec:
        env: stage
     spec:
      imagePullSecrets:
-       - name: passwd-for-docker-hub
+       - name: passwd-for-docker-hub-new
      containers:
        - name: tomcat
          image: cdtsbikaner/17march2026:BUILD_NUMBER
